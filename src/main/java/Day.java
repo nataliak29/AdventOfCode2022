@@ -1,10 +1,12 @@
+import java.io.IOException;
+
 public abstract class Day {
 
-    public String partOneAnswer() {
+    public String partOneAnswer(String resource) throws IOException {
         return "";
     }
 
-    public String partTwoAnswer() {
+    public String partTwoAnswer(String resource) throws IOException {
         return "";
     }
 
